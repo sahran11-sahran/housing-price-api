@@ -28,6 +28,9 @@ class HouseFeatures(BaseModel):
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
+@app.get("/")
+def read_root():
+    return {"message": "Housing API is live!"}
 
 @app.post("/predict")
 def predict_price(features: HouseFeatures):
