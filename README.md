@@ -7,7 +7,8 @@ An end-to-end Machine Learning deployment project. This repository contains a Ne
 *   **Interactive Frontend:** (Run locally using the instructions below)
 
 ## 📸 Screenshot
-![Housing Predictor UI](app-screenshot.png)
+![Housing Predictor UI](screenshot.jpg)
+
 
 ## 🛠️ Tech Stack
 *   **Machine Learning:** TensorFlow / Keras, Scikit-Learn (StandardScaler, SimpleImputer)
